@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/Background_spidey.jpg" alt="Spidey background">
+            </div>
+            <div class="home_logo">
+                <button class="button_secondary ">
+                    <ul class="home_logo_menu_left " id="button_left" >
+                        <li>Story</li>
+                    </ul>
+                </button>
+                <button class="home_logo_button" id="logo_button">
+                    <img src="./dist/images/nuevospidey.png" alt="">
+                </button>
+                <button  class="button_secondary">
+                    <ul class="home_logo_menu_right  " id="button_right">
+                        <li>Production</li>
+                    </ul>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="story" id="story">
+        <div class="story__summary">
+            <button id="button_summary">
+                Plot story
+            </button>
+            <div id="content_summary">
+                <p>
+                    Spider-Man: Into the Spider-Verse" follows teenager Miles Morales as he is bitten by a radioactive spider, gaining spider-like powers. Soon, he discovers a rift that brings multiple Spider-People from different dimensions to his world. Miles must team up with the other Spider-People, including Peter Parker and Gwen Stacy, to stop a device that could destroy their realities. Along the way, Miles embraces his unique powers and learns to be a hero. The film celebrates diversity and the idea that anyone can wear the mask of Spider-Man.
+                </p>
+                <ul class="story__summary__img">
+                    <li>
+                        <img src="./dist/images/story_img.png" alt="spidey story">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="story__comics">
+            <button id="button_comics" class="dark_button">
+                Original material
+            </button>
+            <div class="inactive" id="content_comics">
+                <p>
+                    "Spider-Man: Into the Spider-Verse" is based on the Marvel Comics storyline of the same name, "Spider-Verse," which was published in 2014. The film takes inspiration from this comic book series but also incorporates elements and characters from various Spider-Man comic books over the years.
+                    In the "Spider-Verse" comic book storyline, multiple versions of Spider-People from different dimensions and universes come together to combat a common threat. While the movie draws heavily from this comic event, it also introduces its own narrative elements and unique visual style to create a distinctive cinematic experience.
+                </p>
+                <ul class="story__comics__img">
+                    <li>
+                        <img src="./dist/images/comic1.jpg" alt="comic source 1">
+                    </li>
+                    <li>
+                        <img src="./dist/images/comic2.jpg" alt="comic source 2">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="production" id="production">
+        <div class="production__description">
+            <div class="production__description__text1" id="production_text_1">
+                <p>
+                    <h1>Know more about the team:</h1></br>
+                </p>
+                <p>
+                    The film was directed by Peter Ramsey, Rodney Rothman, and Bob Persichetti. Phil Lord and Rodney Rothman wrote the screenplay, with Lord serving as a producer alongside Christopher Miller. The animation was produced by Sony Pictures Animation, and it received critical acclaim for its unique visual style and storytelling.
+                </p></br>
+                <p>
+                    Shameik Moore as Miles Morales <em><b>Learn more in Wikipedia <a href="#"><img src="./dist/images/globe.svg" alt="Wikipedia globe"></a></b></em></br>
+                    Jake Johnson as Peter B. Parker <em><b>Learn more in Wikipedia <a href="#"><img src="./dist/images/globe.svg" alt="Wikipedia globe"></a></b></em></br>
+                    Hailee Steinfeld as Gwen Stacy <em><b>Learn more in Wikipedia <a href="#"><img src="./dist/images/globe.svg" alt="Wikipedia globe"></a></b></em></br>
+                    Mahershala Ali as Aaron Davis 
+                </p>
+            </div>
+            <div class="production__description__text2 inactive" id="production_text_2">
+                <p>
+                    The creation process of "Spider-Man: Into the Spider-Verse" involved extensive collaboration. Producers and directors worked on a distinct visual style, blending 2D and 3D animation. The team prioritized staying true to the comic book aesthetic, using innovative technology to achieve this. The script evolved with input from multiple writers to embrace the multiverse concept, incorporating diverse versions of Spider-People. Voice actors brought the characters to life, and meticulous editing and animation efforts culminated in the critically acclaimed film.
+                </p>
+            </div>
+            <div class="production__description__text3 inactive" id="production_text_3">
+                <p>
+                    The art in "Spider-Man: Into the Spider-Verse" is a groundbreaking fusion of comic book aesthetics and animation, using bold lines, vibrant colors, and dynamic effects for a visually striking experience that mirrors the essence of comic panels.
+                </p>
+                <div class="art_book">
+                    <img src="./dist/images/spider_art.jpg" alt="spider art">
+                <p>
+                    <a href="#">Buy Art Book <img src="./dist/images/shopping-cart.svg" alt=""></a> 
+                </p>
+                </div>    
+            </div>
+        </div>
+        <nav class="production__buttons">
+            <button id="productionButton1">Cast and showrunners</button>
+            <button class="dark_button" id="productionButton2">Creation process</button>
+            <button class="dark_button" id="productionButton3">Art behind the scenes</button>
+        </nav>  
+    </section>
+    <script src="./src/scripts/main.js"></script>
+</body>
+</html>

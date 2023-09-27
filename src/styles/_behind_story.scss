@@ -1,0 +1,82 @@
+@use 'variaveis';
+
+.story{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    text-align: center;
+    .inactive{
+        visibility: hidden;
+    }
+    button{
+        color:black;
+        display: block;
+        margin-right: 50px;
+        background-color: variaveis.$corBotao;
+        border-radius: 20px;
+        font-size: 20px;
+        min-width: 150px;
+        transition: height, .5s ease;
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: bold;
+        text-decoration: none;
+        border: none;  
+        margin: 20px auto;
+        &:hover{
+            cursor: pointer;
+        }
+        
+    }
+    .dark_button{
+        color:variaveis.$corBotao;;
+        display: block;
+        margin-right: 50px;
+        background-color: black;
+        border-radius: 20px;
+        font-size: 20px;
+        min-width: 150px;
+        transition: height, .5s ease;
+        font-family: 'Covered By Your Grace', cursive;
+        font-weight: bold;
+        text-decoration: none;
+        border: none;  
+        margin: 20px auto;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+
+    &__comics{
+        p{
+            margin-bottom: 20px;
+        }
+        &__img{
+            li{
+                display: inline-block;
+                img{
+                    width: 156.53px;
+                    height: 208.64px;
+                }
+            }
+        }
+    }
+    &__summary{
+        
+        p{
+            margin-bottom: 20px;
+        }
+        &__img{
+            li{
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    &__comics, &__summary{
+        max-width: 400px; 
+        margin: 0 10px;
+        text-align: left;
+    }
+}
